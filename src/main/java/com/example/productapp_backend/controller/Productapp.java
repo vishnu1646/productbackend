@@ -18,6 +18,9 @@ public class Productapp {
     public String search(){
         return "Searching Product";
     }
-
+    @PostMapping("/edit")
+    public String edit(){
+        return "Editing product";
+    }
 
 }
