@@ -26,5 +26,8 @@ public class Productapp {
     public String viewal(){
         return "Viewing al products";
     }
-
+    @PostMapping("/delete")
+    public String delete(){
+        return "Deleting Products";
+    }
 }
