@@ -22,5 +22,9 @@ public class Productapp {
     public String edit(){
         return "Editing product";
     }
+    @GetMapping("/viewall")
+    public String viewal(){
+        return "Viewing al products";
+    }
 
 }
